@@ -1,0 +1,46 @@
+.card{
+   
+    width: 200px;
+    height: 40px;
+    background-color:rgba(138, 196, 235, 0.938) ;
+    text-align:center;
+    border:1px solid;
+    padding:00px 30px 40px;
+    margin: 50px auto;
+    box-shadow: 10px 10px 5px 02px rgb(58, 57, 57);
+    /* width,height;blur,extra jhapsha ,color */   
+}
+
+.Shado{
+    text-align: center;
+     text-shadow: 3px 5px 7px green; /*multi shadow problem */
+    /* width,height;blur ,coller */
+}
+
+
+body{
+    margin: 0px;
+}
+.bgc{
+    text-align: center;
+    font-size: 50px;
+    height:500px;
+    background-color: skyblue;
+}
+
+.clg{
+    text-align: center;
+    font-size: 50px;
+    height:500px;
+    /* background-color: dodgerblue; */
+  background: linear-gradient(70deg, lightgreen, hotpink, skyblue );
+  /*45deg,to top,left */
+}
+
+.rdl{
+    text-align: center;
+    font-size: 50px;
+    height:500px;
+    background-image:radial-gradient(lightblue,hotpink, rgb(167, 247, 131));/* circle at left,right,etc */
+}
+

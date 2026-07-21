@@ -1,0 +1,25 @@
+.box{
+    width: 200px;
+    height: 200px;
+    font-size:30px;
+    text-align: center;
+    padding: 10px;
+}
+.box1{
+    background-color: lawngreen;
+    position: relative;
+    top: 60px;
+    left: 40px;
+}
+.box2{
+    background-color: hotpink;
+    position: relative;
+    top:-50px;
+    left:100px;
+}
+.box3{
+    background-color: skyblue;
+    position: relative;
+    left: 180px;
+    top: -150px;
+}

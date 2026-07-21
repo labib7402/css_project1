@@ -1,0 +1,58 @@
+.h{color: rgb(247, 223, 117);}
+.euh{
+    background-color:#dadada;
+    width: 50%;
+    height:auto ;
+    /* min-width: ; , max-width: ; */
+}
+.abbout{
+    width: 30%;
+    background-color: antiquewhite;
+
+    padding: 20px 30px 40px 100px; 
+    /* padding-top: 50px; */
+    /* padding-right: 130px; 
+       padding-left: 150px; */
+    /* padding-bottom: 160px; */
+}
+
+.extra{
+    background-color:#788a12;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    padding: 10px;;
+    overflow: auto;
+}
+
+h2{
+    color: darkred;
+    text-align:center; /*:start,left,right,end; */
+}
+.tyt{
+    text-align:justify;
+    margin:30px 400px 200px;
+}
+
+.texts{
+    text-decoration: underline red dotted 10px;
+    
+    /* text-decoration:overline; line-through,underline,overline
+    text-decoration-color: red;
+    text-decoration-style:dotted;,double,solid, dashed
+    text-decoration-thickness: 10px; */
+}
+
+.textt{
+    text-transform:uppercase;
+    /* Uppercase , Lowercase, Capitalize */
+}
+
+.Spacingg{
+    text-indent: 100px;
+    letter-spacing: 10px;
+    line-height: 30px;
+    word-spacing: 10px;
+    /* white-space:wrap;nowrap */ */
+
+}

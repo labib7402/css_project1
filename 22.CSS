@@ -1,0 +1,29 @@
+table{
+    width: 500px;
+    border-collapse: collapse;
+    height: 200px;
+}
+table tr:hover{
+    background-color:#aaa;
+}
+
+/* table tr{border-bottom: 1px solid #222;} */
+
+table tr:nth-child(odd){   /* (odde, even)+- bg color korbe */
+    background-color:#dadada ;
+}
+
+table tr th{
+    padding: 6px;
+    background-color:#7e7e7e;
+}
+
+table tr td{
+     padding: 6px;
+     /* vertical-align:; /* baseline,middle,bottom */
+}
+
+table, tr, th, td{
+    border: 1px solid #222;
+     text-align: center;
+}

@@ -1,0 +1,75 @@
+.box{
+    width: 100px;
+    height: 100px;
+    border: solid;
+}
+.box1{
+    background-color: rgb(127, 212, 119);
+    float:right;
+
+}
+.box2{
+    background-color: blueviolet;
+    float: left;
+
+}
+.box3{
+    background-color: orange ;
+    float:left;
+}
+.box4{
+    background-color: hotpink;
+    float: right;
+}
+
+p{
+   clear: both; /* left,right */
+}
+.boxx{
+    width: 130px;
+    height: 130px;
+    margin: 60px;
+    padding: 10px;
+    text-align: center;
+    font-size: 25px;
+}
+.box5{
+    background-color: rgb(235, 157, 218);
+     margin: top 100px;
+     transition: 1ms;
+
+}
+.box5:hover{
+    box-shadow: 5px 5px 10px #8a8a8a;
+    border-radius: 20px;
+    cursor:pointer;
+    /* auto, default, none, pointer, help, context-menu, 
+    text, vertical-text, move, grab, grabbing, n-resize, 
+    s-resize, e-resize, w-resize, ne-resize, nw-resize, 
+    se-resize, sw-resize, ew-resize, ns-resize, nesw-resize
+    , nwse-resize, col-resize, row-resize, wait, progress, 
+    not-allowed, no-drop, zoom-in, zoom-out, alias, copy, 
+    cell, crosshair, all-scroll, url() */
+    transform: rotate(45deg);
+    color: #8a8a8a;
+    
+}
+.box6{
+    background-color: rgb(136, 240, 191);
+    margin: top 100px;
+
+
+}
+a:link{
+    font-size: 30px;
+     text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+a:active{
+    color: rgb(0, 170, 91);
+}
+a:visited{
+    color: rgb(0, 204, 255);
+}
